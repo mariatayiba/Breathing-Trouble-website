@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>London School Wellbeing</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/eb8a229baa.js" crossorigin="anonymous"></script></head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+        <a href="/" id="navbar__logo">BREATHING TROUBLE</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+                <li class="navbar__item">
+                <a href="/" class="navbar__links">HOME</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/about.html" class="navbar__links">ABOUT</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/method.html" class="navbar__links">METHOD</a>
+                </li>
+                <li class="navbar__item">
+                <a href="/analysis.html" class="navbar__links">ANALYSIS</a>
+                </li>
+                <li class="navbar__btn">
+                <a href="http://127.0.0.1:8050/" target="_blank" class="button">MAP</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <div class="page">
+        <div class="page__container">
+            <div class="page__content">
+                <h1>ABOUT</h1>
+                <h2>About the Project</h2>
+                <p>Air pollutants have been associated with negative impacts across medical research. As part of UCL's inaugural SBEER Sustainability Challenge at the Bartlett School of Environment, Energy and Resources, we investigated the relationship of NO2 and PM2.5 concentrations with various wellbeing indicators in London schools. </p>
+                <p>Breathing Trouble is focused on data transparency and it is essential to us that this research is accessible to all. We aim to provide the public with insights into average air pollution concentrations at London schools, alongside health, income and performance indicators collected from numerous 2019 government databases. Our interactive map enables parents and guardians to access this information for each school in London where available, helping them make informed decisions when selecting a school for their children. </p>
+                <h2>About Us</h2>
+                <p>We are a team of two students studying BSc/MEng Sustainable Built Environments, Energy and Resources at UCL.</p>
+                <div class="about__container">
+                    <div class="about__profile">
+                        <div>
+                            <img src="images/maria.jpeg" alt="pic" id="about__img">
+                        </div>
+                        <div>
+                            <h2>Maria Tayiba</h2>
+                            <h3>Software Developer</h3>
+                            <div>
+                                <a href="mailto:maria.ahmed.23@ucl.ac.uk" target="_blank"> maria.ahmed.23@ucl.ac.uk </a>
+                            </div>
+                            <div>
+                                <a href="https://www.linkedin.com/in/maria-tayiba-3b59a5225/" target="_blank" ><i class="fab fa-linkedin" ></i> LinkedIn </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__profile">
+                        <div>
+                            <img src="images/rachel.jpeg" alt="pic" id="about__img">
+                        </div>
+                        <div>
+                            <h2>Rachel Cole</h2>
+                            <h3>Data Analyst</h3>
+                            <div>
+                                <a href="mailto:rachel.cole.23@ucl.ac.uk" target="_blank" > rachel.cole.23@ucl.ac.uk</a>
+                            </div>
+                            <div>
+                                <a href="https://www.linkedin.com/in/rachelcoleucl/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text__container">
+                    <div>
+                        <p>As the software developer for this project, I was responsible for the script development of our project website and the interactive school map. The map application design and development process was complex and required a systematic approach to ensure a cohesive, user-friendly interface. It involved geocoding and data cleansing in preparation for Python processing into an interactive scatter map, whereby each point corresponds to a school in London. On selection of a school, a dashboard with data tables and detailed visualisations (coded using the Plotly library) appears. These graphs allow for simple visual and mathematical comparisons with averages in London and the school borough. The coding process involved persistent testing, debugging and iterations on the map application and website before it was finalised, in order to ensure functionality, accessibility and data transparency.</p>
+                        <p>Through this project, I developed a range of technical skills, and I am keen to develop these further through contributions to more projects addressing sustainability challenges. I am excited to explore how technology can be used as a tool to make a positive impact on the planet.</p>
+                    </div>
+                    <div>
+                        <p>As the data analyst, researcher and database creator of this project, I meticulously selected each variable presented through our dashboard, to provide users with greater contextual information surrounding each school, possibly impacting student wellbeing. This involved extraction of numerous variables from larger datasets, building a smaller, specific database which I further cleansed and filtered through Excel. It was imperative to select a range of variables covering the broad definition of wellbeing, and hence I researched and extracted the associated data to depict this. Furthermore, I located data relating to both disadvantaged and non-disadvantaged students, as defined by gov.uk, to ensure equal representation. I conducted analysis on each variable to observe relationships and presented these ideas to Maria, to aid in data input and variable representation within the dashboard.</p>
+                        <p>Beyond the scope of this project, I am eager to engage in further research and analysis. I am incredibly passionate about the sustainability and public health fields, and strongly believe data analysis can positively drive change, creating a better environment and inspiring a sustainable future.</p>
+                    </div>
+                </div>
+            </div> 
+        </div> 
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>DATA SOURCES</h2> 
+                    <a href="https://www.who.int/news-room/questions-and-answers/item/who-global-air-quality-guidelines" target="_blank">WHO AQGs</a> 
+                    <a href="https://data.london.gov.uk/dataset/london-atmospheric-emissions-inventory--laei--2019" target="_blank">LAEI 2019</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <a href="https://www.gov.uk/government/statistics/pupil-absence-in-schools-in-england-2018-to-2019" target="_blank">Pupil absence</a>
+                    <a href="https://data.london.gov.uk/dataset/subjective-personal-well-being-borough" target="_blank">Wellbeing</a>
+                    <a href="https://www.compare-school-performance.service.gov.uk/download-data?currentstep=datatypes&regiontype=all&la=0&downloadYear=2018-2019&datatypes=spendperpupilfull" target="_blank">Income</a>
+                    <a href="https://www.compare-school-performance.service.gov.uk/download-data?currentstep=datatypes&regiontype=all&la=0&downloadYear=2018-2019&datatypes=ks2" target="_blank">KS2 attainment</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <a href="https://www.compare-school-performance.service.gov.uk/download-data?currentstep=datatypes&regiontype=all&la=0&downloadYear=2018-2019&datatypes=ks4" target="_blank">KS4 attainment</a>
+                    <a href="https://www.compare-school-performance.service.gov.uk/download-data?currentstep=datatypes&regiontype=all&la=0&downloadYear=2018-2019&datatypes=ks5" target="_blank">KS5 attainment</a>
+                    <a href="https://www.compare-school-performance.service.gov.uk/download-data?currentstep=datatypes&regiontype=all&la=0&downloadYear=2018-2019&datatypes=ks5destinationhe" target="_blank">KS5 HE data</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>CONTACT</h2>  
+                    <a href="about.html" target='_blank'>About Us</a>
+                    <a href="mailto:maria.ahmed.23@ucl.ac.uk,rachel.cole.23@ucl.ac.uk" target='_blank'>Email</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__logo__container">
+            <div class="footer__logo--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo">BREATHING TROUBLE</a>
+                </div>
+            </div>
+            <div class="footer__logo--wrap">
+                <div class="website__rights">
+                    <p>&copy; 2024. All rights reserved</p>
+                </div>
+            </div>
+            <div class="footer__logo--wrap">
+                <div class="data__licence">
+                    <p>Contains public sector information licensed under the Open Government Licence v3.0.</p>
+                    <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

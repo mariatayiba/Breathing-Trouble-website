@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>London School Wellbeing</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/eb8a229baa.js" crossorigin="anonymous"></script></head>
+<body>
+<!-- Navbar Section -->
+<nav class="navbar">
+    <div class="navbar__container">
+       <a href="/" id="navbar__logo">BREATHING TROUBLE</a>
+       <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+       </div>
+       <ul class="navbar__menu">
+            <li class="navbar__item">
+             <a href="/" class="navbar__links">HOME</a>
+            </li>
+            <li class="navbar__item">
+                <a href="/about.html" class="navbar__links">ABOUT</a>
+            </li>
+            <li class="navbar__item">
+                <a href="/method.html" class="navbar__links">METHOD</a>
+               </li>
+            <li class="navbar__item">
+             <a href="/analysis.html" class="navbar__links">ANALYSIS</a>
+            </li>
+            <li class="navbar__btn">
+             <a href="http://127.0.0.1:8050/" target="_blank" class="button">MAP</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+    <!-- Hero Section -->
+    <div class="page">
+        <div class="page__container">
+           <div class="page__content">
+                <h1>ANALYSIS</h1>
+                <p>This page is under construction.</p>
+                <p> </p>
+                <p> </p>
+                <p> </p>
+                <p> </p>
+                <p> </p>
+                <p> </p>
+                <!-- <section id="method">
+                    <h2>1. Method</h2>
+                    <p>(Add text)</p>
+                </section>
+                <h2 id="pollution">2. Pollution</h2>
+                <p>Air pollution is a significant concern in London. The Word Health Organization (WHO) tightened their Air Quality Guidelines (AQGs) in 2021 following evidence that air pollution affects health at lower concentrations than previously understood.
+                    Our analysis focuses on annual average Nitrogen Dioxide (NO2) and fine particulate matter (PM2.5) concentrations in London schools which have AQGs of 10µg/m3 and 5µg/m3 respectively.</p>
+                <h3>2.1 All schools in London have annual average NO2 and PM2.5 concentrations above WHO guidelines </h3>
+                <p>All schools in our analysis have annual average NO2 and PM2.5 concetrations which exceed the WHO guidelines, highlighting the urgency of addressing air pollution in schools in London.</p>
+                <image src="images/NO2Distribution.png" width="600px" height="400px"></image>
+                <p>The distribution of annual average NO2 concentrations across London schools is slightly right-skewed with a mean of 28.4µg/m3. All concentrations range from 17.7 to 50.7µg/m3, well above the WHO AQG of 10µg/m3.</p>
+                <image src="images/PM25Distribution.png" width="600px" height="400px"></image>
+                <p>The distribution of annual average PM2.5 concentrations across London schools is also slightly right-skewed with a mean of 10.8g/m3. All concentrations range from 9.1 to 15.2µg/m3, well above the WHO AQG of 5µg/m3.</p>
+                <p>Consistent exposure at school to these unhealthy concentrations of NO2 and PM2.5 puts the health and wellbeing of students in London at risk.</p>
+                <h3>2.2 ... pupils are exposed to unhealthy concentrations of NO2 and PM2.5 </h3>
+                <h3>2.3 Add more </h3>
+
+                <h2 id="income">3. Income indicators</h2>
+                <p>This section looks at school and student income indicators, providing an understanding of the socioeconomic dimension of the air pollution issue in London schools.</p>
+                <h3>3.1 Lower annual average total income at the most polluted schools in London compared to the overall London schools average</h3>
+                <image src="images/TotalIncome.png" width="600px" height="400px"></image>
+                <p>Our analysis reveals a significant disparity in the annual average total incomes between the average and schools in the extreme upper tail of air pollution concentrations. Schools in the extreme upper tail of NO2 and PM2.5 concentrations respectively have a 12.6% and 27.8% lower average annual total income than the average for all London schools.</p>
+                <h3> 3.2 Higher annual average funding from the Local Authority for the most polluted schools in London compared to the least polluted</h3>
+                <image src="images/LAFunding.png" width="600px" height="400px"></image>
+                <p>Considering funding from the Local Authority only, we found that the schools with the highest concentrations of NO2 and PM2.5 respectively receive 11.6% and 8.4% more funding than the least polluted schools. This could imply that the least polluted schools have greater resources than the most polluted schools.</p>
+                <h3>3.3 Higher annual average energy costs for the most polluted schools in London compared to the least polluted</h3>
+                <image src="images/EnergyCosts.png" width="600px" height="400px"></image>
+                <p>For schools experiencing the highest concentrations of NO2 and PM2.5, the average energy costs are approximately 12.9% and 11.1% higher than the least polluted schools. This suggests that schools in more polluted areas may have to spend more on energy, possibly due to the need for greater ventiliation or other measures to ensure a healthy learning environment.</p>
+
+                <h2 id="attainment">4. Attainment indicators</h2>
+                <p> (Add text)</p>
+                <h3>4.1 </h3>
+                <image src="" width="600px" height="400px"></image>
+                <p> (Add text)</p>
+                <h3>4.2 </h3>
+                <image src="" width="600px" height="400px"></image>
+                <p> (Add text)</p>
+                <h3>4.3 </h3>
+                <image src="" width="600px" height="400px"></image>
+                <p> (Add text)</p>
+
+                <h2 id="health">5. Health indicators</h2>
+                <p>To understand the relationship between air pollution and pupil wellbeing in London schools, absence rates are useful indicators to interpret the potential impacts of air pollution on health and wellbeing.</p>
+                <h3>5.1 Higher annual average overall absence rates at the most polluted schools in London compared to those with lower concentrations</h3>
+                <image src="images/OverallAbsence.png" width="600px" height="400px"></image>
+                <p>Schools in areas with the highest concentrations of NO2 and PM2.5 were found to have a higher rate of overall student absence. This could potentially imply a relationship between absenteeism rates and air pollution levels. </p>
+                <h3>5.2 Higher annual average illness absence rates at the most polluted schools in London compared to the overall London schools average</h3>
+                <image src="images/Illness.png" width="600px" height="400px"></image>
+                <p>Analysing illness-related absences only reveals that schools within the extreme upper tail of NO2 and PM2.5 concentrations report a slightly higher illness rate than average, again implying a potential relationship between pupil health and air pollution concentration.</p>
+                <h3>5.3 Higher annual average medical appointment rates at the most polluted schools in London compared to the least polluted schools</h3>
+                <image src="images/MedicalAppts.png" width="600px" height="400px"></image>
+               <p>Next, analysing medical appointment-related absences reveals a higher rate of medical appointment rates for schools in the upper tail of pollution concentrations.</p> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Side Bar Section  -->
+    <!-- <div class=side__bar>
+        <div class=side__bar__container>
+            <h3>CONTENTS</h3>
+            <ul>
+                <li>
+                    <a href="#method">1. METHOD</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#pollution">2. POLLUTION</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#health">3. HEALTH</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#income">4. INCOME</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#attainment">5. ATTAINMENT</a>
+                </li>
+            </ul>
+        </div>
+    </div> -->
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>DATA SOURCES</h2> 
+                    <a href="https://www.who.int/news-room/questions-and-answers/item/who-global-air-quality-guidelines" target="_blank">WHO AQGs</a> 
+                    <a href="https://data.london.gov.uk/dataset/london-atmospheric-emissions-inventory--laei--2019" target="_blank">LAEI 2019</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <a href="https://www.gov.uk/government/statistics/pupil-absence-in-schools-in-england-2018-to-2019" target="_blank">Pupil absence</a>
+                    <a href="https://data.london.gov.uk/dataset/subjective-personal-well-being-borough" target="_blank">Wellbeing</a>
+                    <a href="https://www.compare-school-performance.service.gov.uk/download-data?currentstep=datatypes&regiontype=all&la=0&downloadYear=2018-2019&datatypes=spendperpupilfull" target="_blank">Income</a>
+                    <a href="https://www.compare-school-performance.service.gov.uk/download-data?currentstep=datatypes&regiontype=all&la=0&downloadYear=2018-2019&datatypes=ks2" target="_blank">KS2 attainment</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <a href="https://www.compare-school-performance.service.gov.uk/download-data?currentstep=datatypes&regiontype=all&la=0&downloadYear=2018-2019&datatypes=ks4" target="_blank">KS4 attainment</a>
+                    <a href="https://www.compare-school-performance.service.gov.uk/download-data?currentstep=datatypes&regiontype=all&la=0&downloadYear=2018-2019&datatypes=ks5" target="_blank">KS5 attainment</a>
+                    <a href="https://www.compare-school-performance.service.gov.uk/download-data?currentstep=datatypes&regiontype=all&la=0&downloadYear=2018-2019&datatypes=ks5destinationhe" target="_blank">KS5 HE data</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>CONTACT</h2>  
+                    <a href="about.html" target='_blank'>About Us</a>
+                    <a href="mailto:maria.ahmed.23@ucl.ac.uk,rachel.cole.23@ucl.ac.uk" target='_blank'>Email</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__logo__container">
+            <div class="footer__logo--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo">BREATHING TROUBLE</a>
+                </div>
+            </div>
+            <div class="footer__logo--wrap">
+                <div class="website__rights">
+                    <p>&copy; 2024. All rights reserved</p>
+                </div>
+            </div>
+            <div class="footer__logo--wrap">
+                <div class="data__licence">
+                    <p>Contains public sector information licensed under the Open Government Licence v3.0.</p>
+                    <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
