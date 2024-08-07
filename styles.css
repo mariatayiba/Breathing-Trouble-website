@@ -685,15 +685,15 @@
     }
 
     .main__content h1, .page__content h1 {
-        font-size: 1.5rem !important;
+        font-size: 1.65rem !important;
     } 
     
-    .main__content h2, .findings__content h2, .page__content h2 {
-        font-size: 1rem !important;
+    .main__content h2, .page__content h2 {
+        font-size: 1.2rem !important;
     } 
     
     .main__content p, .findings__content p,  .page__content p, .text__container p {
-        font-size: 0.75rem !important;
+        font-size: 0.8rem !important;
     }  
 
     #about__img {
@@ -726,9 +726,5 @@
 @media screen and (max-width: 335px) {
     .main__content h1 {
         font-size: 1.4rem !important;
-    } 
-    
-    .main__content h2, .findings__content h2 {
-        font-size: 0.9rem !important;
     } 
 }
