@@ -17,7 +17,6 @@
 .main__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 100%;
 }
 
 .main__content h1 {
@@ -390,7 +389,7 @@
     }
 }
 
-/* Side bar for analysis page */
+/* Side bar for analysis page
 .side__bar {
     background: #6834d4;
     width: 20%;
@@ -432,7 +431,7 @@
 
 .side__bar a:hover, .side__bar:active {
     color: #35166e;
-}
+} */
 
 /* Footer */
 .footer__container {
@@ -722,7 +721,6 @@
     #about__img {
         width:8.5rem;
     }
-}
 }
 
 @media screen and (max-width: 335px) {
