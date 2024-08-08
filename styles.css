@@ -11,7 +11,7 @@
     padding: 2.5rem;
     align-items: start;
     justify-self: center;
-    overflow-x:hidden;
+    width:100%;
 }
 
 .main__container {
@@ -106,9 +106,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 5rem;
     z-index: 1;
-    width: 100%;
+    width:100vw;
     padding: 0 1.3rem;
 }
 
@@ -129,15 +128,10 @@
     text-align: center;
 }
 
-.navbar__item {
-    height: 5rem;
-}
-
 .navbar__links {
     color: #fefefe;
     display: flex;
     align-items: center;
-    justify-content: center;
     text-decoration: none;
     padding: 0 1rem;
     height: 100%;
@@ -153,12 +147,8 @@
 
 .button {
     display: flex;
-    justify-content: center;
-    align-items: center;
     text-decoration: none;
     padding: 0.625rem 1.3rem;
-    height: 100%;
-    width: 100%;
     border: none;
     outline: none;
     border-radius: 0.25rem;
@@ -191,8 +181,8 @@
         display: grid;
         grid-template-columns: auto;
         margin: 0;
-        width: 100%;
-        position: absolute;
+        width: 90vw;
+        position:absolute;
         top: -1000rem;
         opacity: 0;
         transition: all 0.8s ease;
