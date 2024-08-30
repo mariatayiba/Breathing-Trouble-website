@@ -65,7 +65,7 @@
 .main__btn {
     max-width:17rem;
     margin-top:3rem;
-    margin-bottom:10rem;
+    margin-bottom:5rem;
 }
 
 .findings__button {
@@ -85,7 +85,7 @@
 }
 
 #main__img {
-    max-width:45vw;
+    max-width:32rem;
     height: auto;
     padding:1rem;
     margin-top:5%;
@@ -569,7 +569,7 @@
     }
 
     #main__img {
-        max-width:50vw;
+        max-width:25rem;
         margin-top:5%;
     }
 }
@@ -602,10 +602,6 @@
         margin-bottom:1rem;
     }
 
-    #main__img {
-        max-width:65vw;
-    }
-
     #navbar__logo {
         font-size: 1.5rem !important;
     }
@@ -613,7 +609,7 @@
 
 @media screen and (max-width: 500px) {
     #main__img {
-        max-width:70vw;
+        max-width:20rem;
     }
 
     .main__content h1, .page__content h1 {
@@ -667,7 +663,7 @@
 
 @media screen and (max-width: 400px) {
     #main__img {
-        max-width:80vw;
+        max-width:15rem;
     }
 
     #navbar__logo {
