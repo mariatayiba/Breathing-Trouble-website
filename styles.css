@@ -68,6 +68,17 @@
     margin-bottom:5rem;
 }
 
+.video__container {
+    display:flex;
+    padding: 1.5rem 0;
+}
+  
+iframe {
+        aspect-ratio: 16 / 9;
+        width: 75% !important;
+    }
+
+
 .findings__button {
     max-width: 16rem;
     align-self: center;
